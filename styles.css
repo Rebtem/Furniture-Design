@@ -38,7 +38,7 @@ body {
 }
 
 .head {
-    background: url(../img/background-sofa.png) no-repeat;
+    background: url("../img/background-sofa.png") no-repeat;
     max-width: 1512px;
     height: 100vh;
     top: -143px;
@@ -68,11 +68,11 @@ body {
     color: #ffffff;
 }
 
-.thin-underline {
-    display: inline;
-    border-bottom: 1px solid white;
-    line-height: 0;
+.logo h2 a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
+
 
 .nav-list {
     list-style: none;
@@ -714,26 +714,23 @@ body {
 }
 
 .footer-logo {
+    font-family: montserrat subrayada;
     position: relative;
     display: inline-block;
+    text-decoration: none;
 }
 
-.footer-logo::after {
-    content: ' ';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 75%;
-    height: 1px;
-    background-color: white;
-}
 
-.footer-logo h1 {
-    font-size: 36px;
+.footer-logo h1 a {
+    font-size: 60px;
     /* margin-bottom: 10px; */
     padding: 0px;
     text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
 }
+
 
 .footer-top {
     display: flex;
@@ -777,25 +774,10 @@ body {
     background-size: cover;
 }
 
-.instagram {
-    background-image: url(../img/instagram.png);
-}
-
-.facebook {
-    background-image: url('https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png');
-}
-
-.twitter {
-    background-image: url('https://img.icons8.com/ios-filled/50/ffffff/twitter.png');
-}
-
-.linkedin {
-    background-image: url('https://img.icons8.com/ios-filled/50/ffffff/linkedin.png');
-}
 
 .footer-line {
     width: 100%;
-    height: 1px;
+    height: 2px;
     background-color: white;
     margin: 20px 0;
 }
